@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --white-100: #FFF;
+    --white-200: #F0F2F5;
+    --gray-100: #5F5F5F;
+    --blue-100: #045BE6;
+    --green-100: #41DB51;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    color: var(--gray-100);
+    background-color: var(--white-200);
+}
+
+a {
+    text-decoration: none;
+    color: var(--gray-100);
+}
+
