@@ -1,0 +1,24 @@
+.profile-img {
+    width: 4rem;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.profile-img::after {
+    content: '';
+    display: block;
+    width: .7rem;
+    height: .7rem;
+    background-color: var(--green-100);
+    border: .2rem solid var(--white-100);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.profile-img img {
+    width: 100%;
+    border-radius: 50%;
+}
