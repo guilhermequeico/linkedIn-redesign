@@ -1,0 +1,20 @@
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 25rem;
+    padding: 0 1.5rem;
+    background-color: var(--white-200);
+    border-radius: 2rem;
+}
+
+.search-box img {
+    width: 1.4rem;
+}
+
+.search-box input {
+    width: 100%;
+    padding: .8rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
