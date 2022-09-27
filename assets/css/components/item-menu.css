@@ -1,6 +1,5 @@
 .item-menu {
     display: inline-block;
-    position: relative;
 }
 
 .item-menu a {
@@ -9,24 +8,24 @@
     margin: .5rem .8rem;
     padding-right: .5rem;
     font-size: 1.4rem;
+    position: relative;
 }
 
 .item-menu a img {
     width: 3rem;
 }
 
-.item-menu::after {
+.item-menu a::after {
     content: '';
     width: 0;
     height: .2rem;
     background-color: var(--blue-100);
     position: absolute;
-    bottom: -1.5rem;
+    bottom: -1.7rem;
     transition: width .3s;
 }
 
-.item-menu:hover::after,
-.item-menu.active-link::after {
+.item-menu a:hover::after,
+.item-menu a.active-link::after {
     width: 100%;
 }
-    
